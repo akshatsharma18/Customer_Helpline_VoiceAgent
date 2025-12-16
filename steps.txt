@@ -1,0 +1,55 @@
+
+
+Agenda :  Create an Agent Using liveKit 
+
+step-1 : Create a virtual environment and activate it . 
+
+step-2 : Create a requirements.txt file 
+
+livekit-agent ----> Create a real time voice/video agent 
+
+livekit-plugins-openai ----> Connect Openai models with Likvekit 
+
+livekit-plugins-google ----> Connect gemini models with Likvekit 
+
+livekit-plugins-silero ----> Text-to-Speech (voice output) 
+
+livekit-plugins-noise-cancellation -----> Remove background noise 
+
+mem0ai ----> AI Memory 
+
+duckduckgo-search ----> Real time web searching without tracking 
+
+langchain-community ----> Ready-made LLM tools & Integrations 
+
+requests ---> call API via HTPP 
+
+python-dotenv ----> Load API keys from .env file 
+
+
+Now open the terminal and write 
+
+uv add -r requirements.txt 
+
+
+
+step-3 : Create a .env file 
+
+
+step-4 : Create agent.py 
+
+
+step-5 : To use the turn-detector, silero, and noise-cancellation plugins, you first need to download the model files:
+Write this command on terminal 
+
+python  agent.py download-files
+
+
+step-6: Start your agent in console mode to run inside your terminal:
+
+python .\agent.py console
+
+
+step-7: Connect to playground
+Start your agent in dev mode to connect it to LiveKit and make it available from anywhere on the internet:
+python  .\agent.py dev
