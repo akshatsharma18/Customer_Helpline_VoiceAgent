@@ -1,6 +1,6 @@
-# Simii - Power Supply Support Assistant
+# Akshat - Power Supply Support Assistant
 
-An AI-powered voice/video agent built with LiveKit and Google's Gemini model. Simii is a professional power supply support assistant designed to help customers with electricity-related issues.
+An AI-powered voice/video agent built with LiveKit and Google's Gemini model. Akshat is a professional power supply support assistant designed to help customers with electricity-related issues.
 
 ## Features
 
